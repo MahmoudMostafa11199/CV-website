@@ -1,121 +1,186 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
-    color: #343434;
-    margin: 0 auto;
-    text-align: center;
+  color: #343434;
+  margin: 0 auto;
+  text-align: center;
 }
+
 /*-----------------------------------------------------------*/
 /*-------------------------header--------------------------*/
 header {
-    padding: 20px;
-    color: #fff;
-    font-family: 'Caveat', cursive;
-    font-size: 35px;
-    background-color: #2f3061;
+  padding: 60px;
+  color: #fff;
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+  background-color: #2f3061;
 }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 300px;
+  border-radius: 50%;
+}
+
 /*-----------------------------------------------------------*/
 /*-------------------------data--------------------------*/
 .data {
-    margin: 0;
+  margin: 0;
 }
 .data div {
-    max-width: 700px;
-    width: 80%;
-    margin: 0 auto 20px;
-    text-align: start;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+  max-width: 700px;
+  width: 80%;
+  margin: 0 auto 20px;
+  text-align: start;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
 .data h2 {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .contant-data h2 {
-    padding: 40px 0 20px;
-    margin: 5px 0 0;
+  padding: 40px 0 20px;
+  margin: 5px 0 0;
 }
 .contant-data p {
-    padding: 10px;
-    margin: 5px 0 0;
+  padding: 10px;
+  margin: 5px 0 0;
 }
 .contant-data hr {
-    margin: 10px;
-    width: 80%;
-    border: 1px solid #00000017;
+  margin: 10px;
+  width: 80%;
+  border: 1px solid #00000017;
 }
 /*------------------------------------------------------------------------*/
 /*--------------------------------------education--------------------------*/
 .education {
-    background-image: url("../photo/sharon-mccutcheon-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url('../imgs/sharon-mccutcheon-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .content-edu {
-    max-width: 700px;
-    width: 85%;
-    margin: 0 auto;
-    text-align: start;
-    padding: 20px 0 70px;
-    font-family: 'Montserrat', sans-serif;
+  max-width: 700px;
+  width: 85%;
+  margin: 0 auto;
+  text-align: start;
+  padding: 20px 0 70px;
+  font-family: 'Montserrat', sans-serif;
 }
 .content-edu h2 {
-    font-family: 'Caveat' ,sans-serif;
-    font-size: 60px;
-    margin: 0 0 30px;
-    padding: 35px 0 0 0;
+  font-family: 'Caveat', sans-serif;
+  font-size: 60px;
+  margin: 0 0 30px;
+  padding: 35px 0 0 0;
 }
 .content-edu div h4 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .content-edu div p {
-    margin: 0;
-    line-height: 1.5;
-    font-style: italic;
+  margin: 0;
+  line-height: 1.5;
+  font-style: italic;
 }
 .content-edu hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    width: 70%;
-    display: inline-block;          
-    margin-top: 20px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 70%;
+  display: inline-block;
+  margin-top: 20px;
 }
 /*------------------------------------------------------------------------*/
 /*-----------------------------conttact------------------------------*/
 .contact {
-    background-color: #000000e6;
-    color: #fff;
-    padding-bottom: 30px;
+  background-color: #000000e6;
+  color: #fff;
+  padding-bottom: 30px;
 }
 .content-contact {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
-.content-contact h2{
-    font-family: 'Caveat' ,sans-serif;
-    font-size: 60px;
-    font-weight: 500;
-    padding: 20px;
-    margin: 0;
+.content-contact h2 {
+  font-family: 'Caveat', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  padding: 20px;
+  margin: 0;
 }
 .content-contact h4 {
-    font-family: 'Caveat' ,sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    padding: 0 0 20px;
-    margin: 0;
+  font-family: 'Caveat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0 0 20px;
+  margin: 0;
 }
 ul {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
 }
 li {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 5px;
+  padding: 20px;
+  transition: 0.3s;
+}
+a {
+  color: #000;
+  padding: 10px;
+}
+li:hover {
+  background-color: #0d69c5;
+  transform: translatey(-5%);
+}
+a:hover i {
+  color: #fff;
+}
+.gmail:hover {
+  background-color: #df6239;
+}
+/*------------------------------------------------------------------------*/
+/*---------------------Responsive--------------------------------------*/
+@media screen and (max-width: 500px) {
+  header {
+    font-size: 27px;
+  }
+  .head3-one {
+    font-size: 26px;
+  }
+
+  .education {
+    background-image: url('../imgs/joanna-kosinska-unsplash.jpg');
+    background-position: 80%;
+    box-shadow: 0px -5px 9px rgb(213, 223, 255);
+  }
+
+  ul {
+    display: flex;
+  }
+  li {
     list-style-type: none;
     display: inline-flex;
     justify-content: center;
@@ -124,62 +189,8 @@ li {
     height: 35px;
     border-radius: 50%;
     background-color: #fff;
-    margin: 5px;
-    padding: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
     transition: 0.3s;
-}
-a {
-    color: #000;
-    padding: 10px;
-}
-li:hover {
-    background-color: #0d69c5;
-    transform: translatey(-5%);
-    
-}
-a:hover i {
-    color: #fff;
-}
-.gmail:hover {
-    background-color: #df6239;
-}
-/*------------------------------------------------------------------------*/
-/*---------------------Responsive--------------------------------------*/
-@media screen and (max-width:500px){
-    header {
-        padding: 20px;
-        color: #fff;
-        font-family: 'Caveat', cursive;
-        font-size: 27px;
-        background-color: #2f3061;
-    }
-    .head3-one {
-        font-size: 26px;
-    }
-
-    .education {
-        background-image: url("../photo/joanna-kosinska-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 80%;
-        box-shadow: 0px -5px 9px rgb(213, 223, 255);
-    }
-
-    ul {
-        display: flex;
-        justify-content: space-between;
-    }
-    li {
-        list-style-type: none;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 35px;
-        height: 35px;
-        border-radius: 50%;
-        background-color: #fff;
-        margin-right: 20px;
-        padding-right: 20px;
-        transition: 0.3s;
-    }
+  }
 }
